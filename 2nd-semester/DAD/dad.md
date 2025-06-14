@@ -1,6 +1,6 @@
 # Database Design and Development
 
-Technologies used: MySQL, Xampp / Wamp Server
+Technologies used: MySQL, XAMPP / WAMP Server
 
-`` Xampp Server -> https://sourceforge.net/projects/xampp/ ``
-`` Wamp Server -> https://sourceforge.net/projects/wampserver/ ``
+- [XAMPP Server](https://sourceforge.net/projects/xampp/)
+- [WAMP Server](https://sourceforge.net/projects/wampserver/)
