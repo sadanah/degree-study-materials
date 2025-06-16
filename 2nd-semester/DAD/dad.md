@@ -62,6 +62,8 @@ CRUD Operations (Create, Read, Update, Delete) form the basis of database intera
 
 4.1 Create Table: 
 ```bash
+//replace tablename with your table name, and tableCol with each column name
+
 CREATE TABLE tablename(
   -> tableCol1 INT(10) PRIMARY KEY,    // this feild is the primary key which is an integer value of size 10
   -> tableCol2 INT(10),                // this field has the same type and size of a foreign key (later declared as foreign key constraint)
@@ -69,8 +71,36 @@ CREATE TABLE tablename(
   -> tableCol4 VARCHAR(255));
 ````
 
+
 ## 5. Read
 
+5.1 DESCRIBE 
+
+To view table fields with their properties (i.e. data type, size, constraints)
+```bash
+DESCRIBE tablename;
+````
+```bash
+//OUTPUT
+
+--
+````
+
+5.2 SELECT
+
+SELECT can be used to query the database for specific information.
+
+```bash
+//To select ALL records from a table
+
+SELECT * FROM tablename;
+````
+
+```bash
+//To select all records with 
+
+SELECT * FROM tablename;
+````
 
 ## 6. Update
 
